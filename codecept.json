@@ -4,8 +4,9 @@
   "output": "./output",
   "helpers": {
     "WebDriverIO": {
-      "url": "http://sahibinden.com/",
-      "browser": "chrome"
+      "url": "https://www.sahibinden.com",
+      "browser": "chrome",
+      "windowSize":"maximize"
     }
   },
   "include": {},
