@@ -55,13 +55,13 @@ Scenario('test1', async (I) => {
 
   //Arazi, SUV & Pick-up linkinin gorunurlugu kontrolu...
   I.seeElement('//*[@id="container"]/div[3]/div/aside/div[1]/nav/ul[3]/li[2]/ul/li[2]/a');
-  var text = await I.grabTextFrom('//*[@id="container"]/div[3]/div/aside/div[1]/nav/ul[3]/li[2]/ul/li[2]/a');
+  text = await I.grabTextFrom('//*[@id="container"]/div[3]/div/aside/div[1]/nav/ul[3]/li[2]/ul/li[2]/a');
   console.log(`Alınan ikinci deger : ${text}`);
   I.say(`Alınan ikinci deger : ${text}`);
 
   //Motosiklet linkinin gorunurlugu kontrolu...
   I.seeElement('//*[@id="container"]/div[3]/div/aside/div[1]/nav/ul[3]/li[2]/ul/li[3]/a');
-  var text = await I.grabTextFrom('//*[@id="container"]/div[3]/div/aside/div[1]/nav/ul[3]/li[2]/ul/li[3]/a');
+  text = await I.grabTextFrom('//*[@id="container"]/div[3]/div/aside/div[1]/nav/ul[3]/li[2]/ul/li[3]/a');
   console.log(`Alınan ucuncu deger : ${text}`);
   I.say(`Alınan ucuncu deger : ${text}`);
 });
