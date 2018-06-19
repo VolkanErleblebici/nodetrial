@@ -9,8 +9,17 @@
       "windowSize":"maximize"
     }
   },
+
   "multiple": {
+    "parallel": {
+      "chunks": 2
+    },
     "basic": {
+      "grep": "suit-one",
+      "browsers": ["chrome", "firefox"]
+    },
+    "smoke": {
+      "grep": "smoke",
       "browsers": ["chrome", "firefox"]
     }
   },
