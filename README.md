@@ -6,5 +6,10 @@ Testler çalıştırılmadan önce:
     npm install -g selenium-standalone
     selenium-standalone install
     selenium-standalone start
-komutları ile yapılır. İlk iki satır ilk kurulumda gereklidir. ancak test çalıştırılmadan önce son satır mutlaka çalıştırılmalıdır.
+komutlari ile yapilir. Ilk iki satir ilk kurulumda gereklidir. ancak test calistirilmadan once son satir mutlaka çalistirilmalidir.
 Testlerin veya sutin başına batch file yapılarak otomatikleştirilebilir.
+
+* testlerin grup/suit halinde kosulmasi : codeceptjs run --grep @suit-one --steps
+* basic olarak testlerin belirtilen tarayicida kosulması : codeceptjs run-multiple basic
+* basic kosullarda belirli suit icerisindeki testlerin kosumu : codeceptjs run-multiple basic --grep @suit-one
+* basic setinin ff ve chrome paralel kosumu : codeceptjs run-multiple parallel basic
