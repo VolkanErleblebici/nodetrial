@@ -1,7 +1,7 @@
 
 Feature('Udemy');
 
-Scenario('test2', async (I) => {
+Scenario('test2 @suit-one', async (I) => {
     I.amOnPage('https://www.sahibinden.com');
  
     /*

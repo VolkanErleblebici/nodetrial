@@ -9,6 +9,11 @@
       "windowSize":"maximize"
     }
   },
+  "multiple": {
+    "basic": {
+      "browsers": ["chrome", "firefox"]
+    }
+  },
   "include": {},
   "mocha": {},
   "name": "codeceptjs"
