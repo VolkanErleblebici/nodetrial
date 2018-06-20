@@ -13,3 +13,8 @@ Testlerin veya sutin başına batch file yapılarak otomatikleştirilebilir.
 * basic olarak testlerin belirtilen tarayicida kosulması : codeceptjs run-multiple basic
 * basic kosullarda belirli suit icerisindeki testlerin kosumu : codeceptjs run-multiple basic --grep @suit-one
 * basic setinin ff ve chrome paralel kosumu : codeceptjs run-multiple parallel basic
+* "WebDriverIO": {
+      "url": "https://www.sahibinden.com",
+      "browser": "chrome", // options: chrome, firefox
+      "windowSize":"maximize"
+    }
